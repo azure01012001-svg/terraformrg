@@ -30,7 +30,7 @@ steps:
     provider: 'azurerm'
     command: 'plan'
     workingDirectory: '$(System.DefaultWorkingDirectory)'
-    environmentServiceNameAzureRM: 'devops-connection''
+    environmentServiceNameAzureRM: 'devops-connection'
 
 - task: TerraformTaskV4@4
   displayName: 'Terraform Apply'
